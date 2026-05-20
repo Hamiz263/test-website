@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #8f789a;
+}
+header {
+    background: #00cc47;
+    color: rgb(226, 64, 64);
+    text-align: center;
+    padding: 15px;
+}
+nav a {
+    color: rgb(26, 100, 64);
+    margin: 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: yellow;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background: #00ccc2;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    nav {
+        display: block;
+    }
+}
